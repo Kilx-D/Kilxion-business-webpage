@@ -171,6 +171,13 @@ h2.nav-button {
     flex-direction: column;
     justify-content: center;
     border-radius: 6px;
+    transition: width 150ms ease-out 60ms,
+    height 150ms ease-out 60ms;
+}
+
+.product:hover {
+    width:32%;
+    height:84%;
 }
 
 .product-image {
